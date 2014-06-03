@@ -3,7 +3,7 @@
 body {
   background: url("../img/bg.png");
   color: #333;
-  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  
   font-size: 1em%;
 
 }
@@ -29,26 +29,50 @@ a img {
  a img:hover {
   background: #ff7b29;
   border-radius: 50%;
+
 }
   
 
 
 
-h1 {
-  font-family: 'Open Sans', sans-serif;
+header h1 {
+  font-family: 'Raleway', sans-serif;
   font-size: 5em;
   text-align: center;
   
 }
-h1:hover {
+header h1:hover {
   background: #ff7b29;
-  letter-spacing: 50%;
+  font-size: 8em;
 }
 
 
-header h1:hover{
-  letter-spacing: 100%;
+nav li {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  float: left;
+  list-style: none;
+  margin: 0 10px 0 10px;
+  text-align: center;
+  
 }
+
+/* Base link styling */
+nav a:link, 
+nav a:visited {
+  color: #333;
+  padding: 10px 10px 10px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover, 
+nav a:active {
+  color: #66FFCC;
+}
+
+
 
 /* Gallery Stying */
 .gallery .control-button {
