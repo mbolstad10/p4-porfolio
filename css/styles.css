@@ -1,11 +1,37 @@
 /* Your Website Styles */
 
+body {
+  background: url("../img/bg.png");
+  color: #333;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-size: 1em%;
+
+}
+
+div{
+  width:100%;
+  height: 100%;
+  
+}
+
+a img {
+  border: 10px solid #fff;
+  width: 100%;
+  max-width: 100%;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3em;
+  text-align: center;
+}
 
 
 /* Gallery Stying */
 .gallery .control-button {
   color: #ccc;
   color: rgba(255, 255, 255, 0.4);
+  width:50%; 
 }
 
 .gallery .control-button:hover {
@@ -47,6 +73,88 @@
 
 
 /* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+
+
+
+
+
+/* =========
+media queries 
+========= */
+
+/* =========
+large destop 
+========= */
+@media screen and (max-width:1260px) and (min-width: 1200px) {
+  body{
+    background: red;
+  }
+}
+
+/* =========
+destop 
+========= */
+
+@media screen and (max-width: 1000px){
+  body{
+    background: green;
+  }
+}
+
+/* =========
+tablet
+========= */
+
+@media screen and (max-width: 800px){
+  body{
+    background: yellow;
+  }
+}
+
+
+/* =========
+mobile
+========= */
+@media screen and (max-width: 480px){
+  body{
+    background: blue;
+  }
+
+  nav li{
+    margin: 2% 0;
+
+  }
+
+  blockquote{
+    font-size: 1em;
+  }
+
+  article.grid_12 section {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  article.grid_12 p{
+    text-align: left;
+  }
+
+  section img{
+    width: 50%;
+  }
+  footer p.grid_6{
+    float: none;
+    width: 100%;
+    margin: 2% 0;
+    font-size: 1em;
+  }
+
+  }
+
+
+
+
+
+
+
 }
