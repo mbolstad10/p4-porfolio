@@ -31,9 +31,6 @@ a img {
   background: #ff7b29;
   border-radius: 50%;
 }
-   a img:hover .item-2 {
-  background: white;
-}
 
 
 
@@ -46,6 +43,7 @@ header h1 {
 header h1:hover {
   background:  #66FFCC;
   font-size: 8em;
+  color: white;
 }
 /* nav */
 
