@@ -18,14 +18,37 @@ a img {
   border: 10px solid #fff;
   width: 100%;
   max-width: 100%;
+  background: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition-property: background, border-radius;
+  transition-duration: .2s, 1s;
+  transition-timing-function: linear, ease-in;  
 }
+
+ a img:hover {
+  background: #ff7b29;
+  border-radius: 50%;
+}
+  
+
+
 
 h1 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 3em;
+  font-size: 5em;
   text-align: center;
+  
+}
+h1:hover {
+  background: #ff7b29;
+  letter-spacing: 50%;
 }
 
+
+header h1:hover{
+  letter-spacing: 100%;
+}
 
 /* Gallery Stying */
 .gallery .control-button {
