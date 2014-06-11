@@ -151,19 +151,25 @@ media queries
 large destop 
 ========= */
 @media screen and (max-width:1260px) and (min-width: 1200px) {
-  body{
-    background: red;
-  }
+  
 }
 
 /* =========
 destop 
 ========= */
 
+
 @media screen and (max-width: 1000px){
   body{
-    background: green;
+    background: yellow;
   }
+
+  nav{
+        width: 50%;
+       padding-left: 20%;
+       text-align: center;
+      }
+  
 }
 
 /* =========
@@ -171,8 +177,11 @@ tablet
 ========= */
 
 @media screen and (max-width: 800px){
-  body{
-    background: yellow;
+  
+      nav{
+        width: 50%;
+       padding-left: 20%;
+       text-align: center;
       }
 
 }
@@ -182,44 +191,7 @@ tablet
 mobile
 ========= */
 @media screen and (max-width: 480px){
-  body{
-    background: blue;
-  }
-
  
-
-
-
-  blockquote{
-    font-size: 1em;
-  }
-
-  article.grid_12 section {
-    float: none;
-    width: 100%;
-    text-align: center;
-  }
-
-  article.grid_12 p{
-    text-align: left;
-  }
-
-  section img{
-    width: 50%;
-  }
-  footer p.grid_6{
-    float: none;
-    width: 100%;
-    margin: 2% 0;
-    font-size: 1em;
-  }
-
-  }
-
-
-
-
-
 
 
 }
